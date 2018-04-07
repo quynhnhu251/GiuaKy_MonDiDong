@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanlythuchiModelStoreContainer" CdmEntityContainer="QuanlythuchiEntities1">
+    <EntitySetMapping Name="money_dtb">
+      <EntityTypeMapping TypeName="QuanlythuchiModel.money_dtb">
+        <MappingFragment StoreEntitySet="money_dtb">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="content1" ColumnName="content1" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="note" ColumnName="note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
